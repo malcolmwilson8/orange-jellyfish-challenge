@@ -1,5 +1,11 @@
 # Orange Jellyfish Challenge
 
+## Table of Contents
+- [What is the purpose of this repo?](#what-is-the-purpose-of-this-repo)
+- [Task](#task)
+- [Mockup](#mockup)
+- [Approach](#approach)
+
 ## What is the purpose of this repo?
 
 This repo houses my response to the Orange Jellyfish Challenge issued through Founders and Coders. It contains: 
@@ -31,6 +37,16 @@ Things to consider:
 
 The mockup contains a number of standout elements. Listing these elements reveals features which will need to be worked on:
 
-- A search field
+- A search field, likely allowing users to look for other products on site
+- A nav bar, with 'Home', 'About' and 'Help' links, as well as a 'Your Basket' link featuring a basket SVG style icon
+- A 'Product Results' section; the most detailed part of the page. This section contains individual product images, names, prices and star ratings for 6 products
+- A 'Basket' pane to the right of the page, featuring a basket icon. This would likely be updated with relevant product information as the user selects their products
+
 
 ## Approach
+
+First off, I want to address the 'Things to consider' elements of the task.
+
+<em>Is there any further information that you as a developer require from the business before starting the development work?</em>
+
+<em>Think about potential errors that could occur when this new functionality is running in production, how would you handle/mitigate these?</em>
