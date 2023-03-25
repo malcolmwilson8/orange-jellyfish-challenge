@@ -35,7 +35,7 @@ Things to consider:
 
 ![mockup](https://user-images.githubusercontent.com/117777716/226719178-112f4fb0-ef21-4f76-b94e-1d468ca84b0a.PNG)
 
-The mockup contains a number of standout elements. Listing these elements reveals features which will need to be worked on:
+The mockup contains a number of standout elements:
 
 - A search field, likely allowing users to look for other products on site
 - A nav bar, with 'Home', 'About' and 'Help' links, as well as a 'Your Basket' link featuring a basket SVG style icon
@@ -49,14 +49,18 @@ First off, I want to address the 'Things to consider' elements of the task.
 
 <em>Is there any further information that you as a developer require from the business before starting the development work?</em>
 
-There is a lot of further information that I would need from the business before starting any development work. In bullet points below, I will list these out:
-- Are there any supplementary objectives that I need to deliver on in addition to the functionalities required?
-    - This would be particularly important to find out, as it would determine any stretch targets, or extra functionality I could help provide outside of the listed requirements. It would be very useful to have these to mind before starting on the task so I know what I can push myself to achieve as an added bonus.
+In bullet points below, I will list out the information I require, splitting them into **Technical** and **Non-technical**:
 
-- What does the business expect from the web application by the end of my development work?
-    - It is necessary to find out if I am only expected to deliver on a minimum viable product (MVP) version of the web application, or if I am being tasked with delivering the complete, production-ready solution. I would want to ask the business what exactly they expect from me, and I would do so within the context of the SMART framework (Specific, Measurable, Achievable, Realistic, Timebound).
+### Technical
 
-- What time frame am I working to within the project?
+- Do I need to work on any of the features outside of displaying products on the page for customers to view, integrating the API, and working on the shopping basket?
+    - Some of the features I listed in the [Mockup](#mockup) section (search field, nav bar), do not necessarily relate to displaying products on the page, the API, or the shopping basket, but it would be good to know if I'd need to complete any functionality for those elements. If so, I would need to consider the amount of time I spend on these features.
+    
+- API Information
+    - I would need some supplementary information on the 'getProducts' API:
+        - Any supporting documentation which I could read to gain a better understanding of the API
+        - If any keys or tokens need to be validated before the data gets sent to the frontend
+        - Endpoint details which I would use to interact with the API on the frontend
 
 - What tech stack, libraries and frameworks will I be using to complete the functionalities required? 
     - Alongside HTML, CSS and JS, it is worth asking this as there are different ways to approach the challenge from a framework and library perspective. For example, would we need to use React, Angular or Vue.js to work on the components and build of the page itself? Also, it is worth asking:
@@ -64,6 +68,24 @@ There is a lot of further information that I would need from the business before
         - What package management software would the project use?
         - Are there any requirements outside of the frontend functionalities listed? I.e. will I need to work directly on the backend side of the application also?
 
+- Are there any functionalities the business would want to implement in the future?
+    - If the business has an idea of work they want to be completed on the web application in the future, I could take this into account in my current work, and potentially even get a head start on some of the work for them. 
+    
+### Non-technical
+
+- Are there any supplementary objectives that I need to deliver on in addition to the functionalities required?
+    - This would be particularly important to find out, as it would determine any stretch targets, or extra functionality I could help provide outside of the listed requirements. It would be very useful to have these objectives to mind before starting on the task so I know what I can push myself to achieve as an added bonus.
+
+- What does the business expect from the web application by the end of my development work?
+    - It is necessary to find out if I am only expected to deliver on a minimum viable product (MVP) version of the web application, or if I am being tasked with delivering the complete, production-ready solution. I would want to ask the business what exactly they expect from me, and I would do so within the context of the SMART framework (Specific, Measurable, Achievable, Realistic, Timebound), establishing clear goals for myself.
+
+- What time frame am I working to within the project?
+    - Within this process, it would be crucial to find out what important dates I would be working to. Finding out what the deadline for the completed app is, alongside any dates I would be required to give updates on my work would greatly influence the focus of my coding and my time management.
+
+- Who would be responsible for signing off on the final functionalities I have delivered, and what influence do they have on the project overall?
+    - I would need to find out if the way I work on the functionalities will be completely my own choice, or if I would be expected to follow a specific set of the business' practices for them. Also, it would be necessary to know who I would be submitting my code to, and to what extent they would be able to change the direction of my work. Knowing this ensures that I have clearly defined relationships with those I am working with, and helps ensure that any serious issues are avoided at the end of the development process.
 
 
 <em>Think about potential errors that could occur when this new functionality is running in production, how would you handle/mitigate these?</em>
+
+
