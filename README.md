@@ -52,9 +52,6 @@ First off, I want to address the 'Things to consider' elements of the task.
 In bullet points below, I will list out the information I require, splitting it into **Technical** and **Non-technical** areas:
 
 ### Technical
-
-- Do I need to work on any of the features outside of displaying products on the page for customers to view, integrating the API, and working on the shopping basket?
-    - Some of the features I listed in the [Mockup](#mockup) section (search field, nav bar), do not necessarily relate to displaying products on the page, the API, or the shopping basket, but it would be good to know if I'd need to complete any functionality for those elements. If so, I would need to consider the amount of time I spend on these features.
     
 - API Information
     - I would need some supplementary information on the 'getProducts' API:
@@ -63,7 +60,7 @@ In bullet points below, I will list out the information I require, splitting it 
         - Endpoint details which I would use to interact with the API on the frontend
 
 - What tech stack, libraries and frameworks will I be using to complete the functionalities required? 
-    - Alongside HTML, CSS and JavaScript, it is worth asking this as there are different ways to approach the challenge from a framework and library perspective. For example, would we need to use React, Angular or Vue.js to work on the components and build of the page itself? Also, it is worth asking:
+    - Alongside HTML, CSS and JavaScript, it is worth asking this as there are different ways to approach the challenge from a framework and library perspective. For example, would I need to use React, Angular or Vue.js to work on the components and build of the page itself? Also, it is worth asking:
         - What version control software would I be using?
         - What package management software would the project use?
         - Are there any requirements outside of the frontend functionalities listed? I.e. will I need to work directly on the backend side of the application also?
@@ -73,8 +70,8 @@ In bullet points below, I will list out the information I require, splitting it 
     
 ### Non-technical
 
-- Are there any supplementary objectives that I need to deliver on in addition to the functionalities required?
-    - This would be particularly important to find out, as it would determine any stretch targets, or extra functionality I could help provide outside of the listed requirements. It would be very useful to have these objectives to mind before starting on the task so I know what I can push myself to achieve as an added bonus.
+- Are there any supplementary objectives that I might be asked to deliver on in addition to the functionalities required?
+    - Some of the features I listed in the [Mockup](#mockup) section (search field, nav bar), do not necessarily relate to displaying products on the page, the API, or the shopping basket, but it would be good to know if I'd be asked to complete any functionality for those elements. It would be very useful to have objectives like these to mind before starting on the task so I know what I can push myself to achieve as an added bonus.
 
 - What does the business expect from the web application by the end of my development work?
     - It is necessary to find out if I am only expected to deliver on a minimum viable product (MVP) version of the web application, or if I am being tasked with delivering the complete, production-ready solution. I would want to ask the business what exactly they expect from me, and I would do so within the context of the SMART framework (Specific, Measurable, Achievable, Realistic, Timebound), establishing clear goals for myself.
@@ -88,7 +85,7 @@ In bullet points below, I will list out the information I require, splitting it 
 
 <em>Think about potential errors that could occur when this new functionality is running in production, how would you handle/mitigate these?</em>
 
-There are a number of potential errors that could occur when this functionality is running in production. Below I have listed these out:
+There are a number of potential errors that could occur when this functionality is running in production. Below I have listed these out, alongside how I would address them:
 
 - Failure to retrieve API information, meaning that product information does not get rendered on the page correctly
     - This could occur as result of invalid API keys or authorisation on the API itself. If these issues arise within the frontend, steps could be taken to ensure that this is addressed:
@@ -96,13 +93,13 @@ There are a number of potential errors that could occur when this functionality 
 
 - Basket not updating with correct information
     - This could occur again due to errors and oversights within the codebase, and due to a lack of due diligence when testing the functionality for updating the basket itself. To address and mitigate these errors, a number of failsafes could be implemented:
-        - Ensure all testing functions are returning the intended results before committing functions into the codebase and deploying them. Without proper testing, functions which add items to the basket could return errors which are not caught, or unintended results could be produced. Developing each function in line with a testing technique such as Unit Testing or Integration testing could help to avoid errors with the basket not updating correctly. They could look at specific function performance as well as how different parts of the codebase interact with each other.
-        - Additionally, within testing and building functions, implementing suitable error handling will help to avoid errors like this by showing:
+        - Ensure testing functions are returning the intended results before committing functions into the codebase and deploying them: 
+            - Making use of Unit Testing or Integration Testing would help ensure the basket updating function, and other functions on the page return the information needed. Iplementing suitable error handling within tests will assist with function issues by showing:
             - When the error happened first
             - The error type and message associated with it
             - Which line of code caused the error
             
-            Taking the above information into account can help identify what to work on to solve issues and ensure code in production runs smoothly.
+            Taking the above information into account can help ensure code in production regarding basket updates or any other function on the page runs smoothly.
 
 - Slow response times on the web app due to high usage
     - Due to a large amount of information being parsed from the backend, an excessively large CSS or JavaScript file, or a large amount of page traffic, page load times can greatly suffer, causing negative user experiences. Excessive fetch requests to an API can equally create adverse impacts to the response time on site. These factors can cause increased bounce rates, and can lead consumers to remember the negative experiences they have with the site, causing them to never visit again. Thankfully there are a few steps that can be taken to avoid these issues:
