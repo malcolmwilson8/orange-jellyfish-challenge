@@ -9,9 +9,9 @@
 ## What is the purpose of this repo?
 
 This repo houses my response to the Orange Jellyfish Challenge issued through Founders and Coders bootcamp. It contains: 
- - This README outlining the challenge scenario 
+ - This README outlining the challenge scenario and my approach
  - Mockup imagery
- - GitHub Issues which explain my approach to the challenge
+ - [GitHub Issues](https://github.com/malcolmwilson8/orange-jellyfish-challenge/issues) which explain concerns for the team to address within the challenge
 
 ## Task
 
