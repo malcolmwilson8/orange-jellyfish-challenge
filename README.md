@@ -49,7 +49,7 @@ First off, I want to address the 'Things to consider' elements of the task.
 
 <em>Is there any further information that you as a developer require from the business before starting the development work?</em>
 
-In bullet points below, I will list out the information I require, splitting them into **Technical** and **Non-technical**:
+In bullet points below, I will list out the information I require, splitting it into **Technical** and **Non-technical** areas:
 
 ### Technical
 
