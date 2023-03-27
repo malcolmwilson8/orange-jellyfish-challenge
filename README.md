@@ -60,7 +60,7 @@ In bullet points below, I will list out the information I require, splitting it 
         - Endpoint details which I would use to interact with the API on the frontend
 
 - What tech stack, libraries and frameworks will I be using to complete the functionalities required? 
-    - Alongside HTML, CSS and JavaScript, it is worth asking this as there are different ways to approach the challenge from a framework and library perspective. For example, would I need to use React, Angular or Vue.js to work on the components and build of the page itself? Also, it is worth asking:
+    - Alongside HTML, CSS and JavaScript, it is worth asking this as there are different ways to approach the challenge from a framework and library perspective. For example, would I need to use React or Node.js to work on the components and build of the page itself? Also, it is worth asking:
         - What version control software would I be using?
         - What package management software would the project use?
         - Are there any requirements outside of the frontend functionalities listed? I.e. will I need to work directly on the backend side of the application also?
